@@ -1,0 +1,19 @@
+Na primeira linha, tem dois inteiros positivos n e r,
+  sendo n o número de nós da rede
+  e r o número de ligações.
+
+Seguem-se r linhas que descrevem as ligações.
+  Cada uma tem quatro inteiros:
+    origem,
+    destino,
+    número de lugares inicialmente disponíveis (d)
+    preço de cada bilhete (isto é, de cada lugar nessa ligação).
+
+Os nós são identificados por números consecutivos de 1 a n.
+O preço do bilhete é um inteiro positivo (não muito grande).
+
+Finalmente, tem o número total t de reservas a processar e
+  t linhas com os seus dados:
+    número de lugares necessários (k),
+    número de nós no percurso (p),
+      e a sequência de nós que o define.

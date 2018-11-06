@@ -1,0 +1,11 @@
+Input
+É dada apenas a sequência de locais onde as cigarras foram passando,
+um local por cada linha de dados.
+A última linha tem o valor 0.
+O número de locais distintos não excede 30.
+Cada local é identificado por um inteiro positivo inferior a 10000.
+
+
+
+Output
+A sequência de locais que visitariam se não se tivessem enganado, cada local numa linha.

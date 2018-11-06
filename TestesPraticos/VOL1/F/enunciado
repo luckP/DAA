@@ -1,0 +1,51 @@
+Tarefa
+  Escrever um programa que permita analisar cada proposta e verificar se satisfaz as condições descritas.
+  Deve ainda indicar a(s) melhor(es), dentre as que satisfazem as condições.
+
+PROPOSTA MELHOR DO QUE OUTRA:
+  Uma proposta é melhor do que outra se permitir atribuir um maior número de tarefas do que essa outra.
+  DESEMPATE:
+    Quando o número de tarefas atribuídas é igual
+        é melhor a que obrigar a uma menor taxa máxima de esforço.
+    Se essa taxa for igual,
+      é melhor a que permitir que menos pessoas fiquem sujeitas a essa taxa máxima de esforço.
+    Caso contrário
+      as propostas são consideradas idênticas.
+
+O programa indicará as melhores de todas.
+A TAXA DE ESFORÇO por pessoa é dada pela razão entre o número de tarefas que lhe ficam atribuídas e o número máximo que aceita realizar.
+  tarefas que lhe ficam atribuídas/número máximo que aceita realizar
+
+Este número máximo não pode ser excedido!
+O código que identifica cada pessoa é um inteiro positivo inferior a 20000.
+As tarefas são identificadas por inteiros positivos consecutivos, a partir de 1.
+
+********************************* Input *************************************
+
+Input
+Na primeira linha tem o número de pessoas e o número de tarefas.
+
+A seguir tem vários pares de linhas com a informação relevante sobre as pessoas.
+  Na primeira linha de cada par encontra o código da pessoa, o número de tarefas que pode desempenhar e o número máximo que aceitaria (o qual não excede o anterior).
+  Na linha seguinte tem a indicação das tarefas que pode desempenhar.
+
+======
+
+Finalmente, tem o número de propostas
+
+e nas restantes linhas, a descrição das mesmas.
+  Cada proposta é definida em várias linhas:
+    em cada linha tem um par de inteiros
+      o primeiro identifica a tarefa
+      segundo a pessoa que a realizará.
+      O par 0 0 identifica o seu fim.
+
+********************************* Output *************************************
+
+Output
+Na primeira linha, tem um quociente A/T,
+  em que A é o número de propostas que satisfazem as condiçoes impostas
+  e T o número das submetidas.
+
+Na linha seguinte, tem o número de ordem da proposta melhor
+ou os números de todas as melhores (por ordem de ocorrência e separados por espaço), caso existam várias.

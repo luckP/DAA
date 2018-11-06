@@ -1,0 +1,14 @@
+Input
+
+Na primeira linha tem o número de nós da rede e o número de trajetos a analisar.
+Em cada uma das linhas seguintes tem a descrição de um trajeto.
+  No início de cada linha tem o número de nós que constituem o trajeto
+  e a seguir tem a sequência de nós que o definem.
+
+Os nós da rede são identificados por inteiros consecutivos, a partir de 1.
+Pode existir uma ligação (x,y) e não existir (y,x). A rede pode ter nós isolados.
+Se for útil, pode assumir que a rede não tem mais do que 20000 nós.
+
+Output
+
+Uma linha com o número de adjacentes de cada nó. Ficará implícito que a primeira linha terá o número de adjacentes do nó 1, a segunda terá o número de adjacentes do nó 2, e sucessivamente.

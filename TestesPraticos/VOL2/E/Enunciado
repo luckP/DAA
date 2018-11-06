@@ -1,0 +1,43 @@
+Bons e maus caminhos
+Image pares-t
+Dada uma sequência de palavras formadas por letras maiúsculas (como no Problema "Sopa de Letras"), que se supõe estar ordenada por ordem lexicográfica crescente, pretende-se descobrir precedências entre as letras usadas.
+
+Recorde que, para descobrir precedências, é útil começar por construir o grafo G da relação formada pelos pares de letras que resultam da análise de palavras consecutivas. Os nós de G correspondem às letras maiúsculas que ocorrem nas palavras dadas. Uma letra x precede necessariamente outra letra y na ordem procurada se e só se existir um caminho de x para y em G. A sequência dada pode não garantir a unicidade da relação de ordem do conjunto de letras, contrariamente ao que se assumia no problema "Rare Order" (proposto nas aulas).
+
+Escrever um programa que, dada uma sequência de palavras, analise uma sequência de caminhos em G, possivelmente incorretos, e, para cada um, indique se constitui uma justificação detalhada de que a primeira letra no caminho precede a última. Detalhada no sentido de corresponder efectivamente a um caminho em G.
+
+Input
+Inicialmente tem a sequência de palavras, uma por linha. A sequência termina por # e tem sempre pelo menos uma palavra. Segue-se uma sequência de caminhos que termina também por #. Cada caminho é dado pela sequência de nós que o definem, tem pelo menos dois nós e nenhum nó se repete.
+Output
+Para cada caminho, uma linha com ou a palavra Sim ou a palavra Nao consoante seja uma justificação ou não.
+
+
+Exemplo
+Input
+MPMCAC
+MPAMJ
+MMCAA
+MMJA
+CAAJ
+CCM
+CCMP
+CCMJT
+CCAP
+J
+JMM
+JMAC
+#
+MACJ
+JPM
+MCJ
+ACJ
+MJ
+PACJ
+#
+Output
+Sim
+Nao
+Sim
+Sim
+Nao
+Nao

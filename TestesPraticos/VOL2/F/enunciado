@@ -1,0 +1,44 @@
+Quantas depois
+Image seqletras Image seqletras_b
+Ainda na continuação do Problema "Bons e maus caminhos", para uma sequência de palavras, pretende-se determinar quantas letras terão de ocorrer necessariamente depois de uma maiúscula dada. Recorde que, embora se admita que a sequência de palavras está bem ordenada, como no problema "Rare Order", não se garante a unicidade da ordenação do conjunto de letras.
+
+Input
+Começa pela sequência de palavras, a qual segue o formato descrito no Problema "Bons e maus caminhos" e termina por #. Na linha seguinte, tem uma letra maiúscula que ocorre nessas palavras.
+Output
+O número de letras que ocorrem necessariamente depois da letra indicada.
+Exemplo 1
+Input
+MPMAAC
+MPAMJ
+MMCAA
+MMJA
+CAAP
+CAAJP
+#
+P
+Output
+4
+Exemplo 2
+Input
+MPMAAC
+MPAMJ
+MMCAA
+MMJA
+CAAP
+CAAJP
+#
+M
+Output
+3
+Exemplo 3
+Input
+MPMAAC
+MPAMJ
+MMCAA
+MMJA
+CAAP
+CAAJP
+#
+A
+Output
+0

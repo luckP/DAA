@@ -1,0 +1,23 @@
+Input
+A primeira linha tem dois inteiros positivos n e r,
+  sendo n o número de nós da rede
+  e r o número de ligações.
+
+Segue-se a descrição das ligações em r linhas,
+  cada uma com um par de inteiros
+    que representam os extremos da ligação.
+
+São ligações bidirecionais.
+Finalmente, tem o número q de questões a responder
+  e, a seguir, os identificadores dos nós v correspondentes.
+
+Os nós são identificados por números consecutivos de 1 a n.
+
+Restrições
+1 ≤ n ≤ 20 000	número de nós
+0 ≤ r ≤ 30 000	número de ramos
+1 ≤ q ≤ 50 000	número de questões
+
+
+Output
+Por cada questão, tem uma linha com "No v: k", sendo k o nó que identifica o conjunto de v.

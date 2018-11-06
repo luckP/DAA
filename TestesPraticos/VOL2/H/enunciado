@@ -1,0 +1,23 @@
+Na primeira linha tem três inteiros positivos:
+  o número de elementos do grupo,
+  o identificador do local de origem do grupo
+  e o identificador do destino.
+
+A seguir tem a descrição da rede.
+  Na primeira linha tem
+    o número de nós (n)
+    e de ramos da rede (r).
+  Segue-se a descrição dos ramos
+    da rede. Em cada linha tem três inteiros:
+      a origem
+      e o fim do ramo
+      e a indicação sobre se tem ou não problemas (1 se existir algum problema e 0 se não existir).
+  Os nós da rede são identificados por inteiros consecutivos, a partir de 1.
+  A rede pode ter nós isolados.
+
+Finalmente, tem a informação sobre as rotas.
+  Numa primeira linha tem o número p de rotas a analisar.
+  Depois, em cada linha, tem
+    a informação sobre uma certa rota:
+    no início tem o número de nós que constituem a rota (isto é, o valor de k correspondente)
+    e a seguir tem a sequência v1 n1 v2 n2 v3 n3...vk-1 nk-1 vk que a define (como se descreveu acima).
