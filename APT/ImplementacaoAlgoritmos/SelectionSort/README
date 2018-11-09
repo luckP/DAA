@@ -1,5 +1,6 @@
 # Implementacao do algoritmo selectionSort.
-# Nesta implementacao serao ordenados n inteiros em ordem crescente
+# Nesta implementacao serao ordenados os valores do vetor vet entre os index
+k ate n
 
 # Input:
   #  Inteiro n -> numero de elementos do array
