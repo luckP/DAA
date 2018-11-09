@@ -11,9 +11,7 @@ class Main{
           vet[j] = vet[j-1];
           vet[]j-1 = aux;
         }
-
       }
-
     }
   }
 
