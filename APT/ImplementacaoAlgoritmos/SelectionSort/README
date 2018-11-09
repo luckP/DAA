@@ -1,0 +1,6 @@
+# Implementacao do algoritmo selectionSort.
+# Nesta implementacao serao ordenados n inteiros em ordem crescente
+
+# Input:
+  #  Inteiro n -> numero de elementos do array
+  # Sequencia de n inteiros em ordem aleatoria para serem ordenados
