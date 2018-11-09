@@ -1,18 +1,18 @@
 import java.util.*;
 class Main{
-  public static void selectSort(int k, int n, int vet[]){
+  public static void InsertionSort(int k, int n, int vet[]){
     if(k>n)
       System.out.println("Error: k>n");
 
-    for (int i=k; i<n; i++) {
-      int min = i;
-      for (int j=i; j<n; j++) {
-        if(vet[j]<vet[min])
-          min = j;
+    for (int i=k+1; i<n; i++) {
+      for (int j=i; j>=k; j--) {
+        if(vet[j]<vet[j-1]){
+          int aux = vet[j];
+          vet[j] = vet[j-1];
+          vet[]j-1 = aux;
+        }
+
       }
-      int aux = vet[i];
-      vet[i] = vet[min];
-      vet[min] = aux;
 
     }
   }
@@ -25,7 +25,7 @@ class Main{
     for (int i=0; i<n; i++)
       vet[i] = scn.nextInt();
 
-      selectSort(k, n, vet);
+    InsertionSort(k, n, vet);
 
     for (int i=0; i<n; i++)
       System.out.println(vet[i]);
