@@ -5,7 +5,7 @@ class Main{
       System.out.println("Error: k>n");
 
     for (int i=k+1; i<n; i++) {
-      for (int j=i; j>=k; j--) {
+      for (int j=i; j>k; j--) {
         if(vet[j]<vet[j-1]){
           int aux = vet[j];
           vet[j] = vet[j-1];
